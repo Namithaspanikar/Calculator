@@ -1,0 +1,97 @@
+ <!-- <div class="calculator">
+            <input type="text" id="result" readonly>
+            <div class="buttons">
+                <button onclick="Clear()" >C</button>
+                <button onclick="Calculator('7')" >7</button>
+                <button onclick="Calculator('8')">8</button>
+                <button onclick="Calculator('9')">9</button>
+                <button onclick="Calculator('/')">/</button>
+                <button onclick="Calculator('4')">4</button>
+                <button onclick="Calculator('5')" >5</button>
+                <button onclick="Calculator('6')">6</button>
+                <button onclick="Calculator('*')" >*</button>
+                <button onclick="Calculator('1')" >1</button>
+                <button onclick="Calculator('2')" >2</button>
+                <button onclick="Calculator('3')" >3</button>
+                <button onclick="Calculator('-')" >-</button>
+                <button onclick="Calculator('0')" >0</button>
+                <button onclick="Calculator('.')" >.</button>
+                <button onclick="CalculateResult()" >=</button>
+                <button onclick="Calculator('+')" >+</button>
+                <button onclick="Delete('')">Del</button>
+            </div>
+        </div> -->
+
+
+        <!-- <script>
+             
+             var currentvalue = "";
+           
+
+            function Calculator(x) {
+                currentvalue += x;
+                document.getElementById('result').value = currentvalue;
+            }
+
+            function CalculateResult() {
+                document.getElementById('result').value = eval(currentvalue);
+            }
+
+            function Clear() {
+                currentvalue = '';
+                document.getElementById('result').value = currentvalue;
+
+            }
+
+            function Delete(){
+
+                currentvalue = currentvalue.substring(0,currentvalue.length-1);
+                document.getElementById('result').value = currentvalue;
+    
+            }
+            
+        </script> -->
+
+
+
+<!-- Style -->
+
+<!-- /* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    width: 300px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #result {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+  } */ -->
